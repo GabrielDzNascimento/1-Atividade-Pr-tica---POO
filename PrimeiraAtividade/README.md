@@ -33,3 +33,5 @@ Simula um sistema de login com um nome de usuário e senha pré-definidos.
 O usuário tem até três tentativas para acertar as credenciais.
 
 7. Tabuada
+
+Recebe um número inteiro e exibe a tabuada completa deste número, de 1 a 10.
