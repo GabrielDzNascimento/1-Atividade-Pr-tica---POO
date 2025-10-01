@@ -1,0 +1,26 @@
+A Segunda atividade consiste em um projeto que usa diversos conceitos, como Classe Abstrata, Herança, Encapsulamento e Polimorfismo
+
+Estrutura do Projeto--------------------------
+
+1- Veiculo.Java ( Classe Abstrata )
+ Atributos: Marca(público), Modelo(público) e Ano (privado)
+ Métodos: Contém os Getters e Setters para o ano e o método abstrato informaçõesVeiculo.
+
+ 2-Carro.java
+ Atributo: numero de portas(público)
+ Implementação: Sobrescreve o informaçõesVeiculo para incluir a marca, modelo e o número de portas
+
+ 3-Moto.java
+Atributo: cilindrada(privado)
+Implementação: Sobrescreve o informaçõesVeiculo para incluir a marca, modelo e a cilindrada
+
+4-Main.java
+Função: Instancia os objetos de Carro e Moto, define todos os seus atributos e imprime o resultado do polimorfismo, chamando o método informaçõesVeiculo() para cada um.
+
+Usar código 
+
+- Certifique-se de todos os arquivos constarem na pasta correspondente ao pacote(Segunda atividade)
+-Compile todas as classes
+-Execute a classe Main.java
+
+Caso quiser alterar características é só alterar pela Main.java
